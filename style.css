@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    scale: 1.1;
+ 
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Mulish", sans-serif;
+}
+.offcanvas
+{
+    transition: 0.4s ease-in-out;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FDFBF6 ;
+   padding: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list
+{
+    display: flex;
+    gap: 20px;
+}
+.nav-item
+{
+   padding: 7px;
+}
+.branch1
+{
+    padding: 15px;
+    background: #FDFBF6;
+    border-radius: 10px;
+}
+.branch1:hover
+{
+    background: gray;
+    transition: 0.3s ease-in-out;
+}
+.banner-item
+{
+    width: 100%;
+    object-fit: cover;
+}
+.imgs-1
+{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.momo-item
+{
+    box-shadow:  0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.momo-item:hover
+{
+    background-color: gray;
+    scale: 1.1;
+    transition: ease-in-out 0.3s    ;
+    color: white;
+}
+.ordernow
+{
+ 
+ margin-left: 33%;
+ margin-bottom: 20px;
+}
+.text-momo
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
