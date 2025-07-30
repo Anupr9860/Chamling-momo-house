@@ -90,3 +90,10 @@ a{
     font-weight: 600;
     color: black;
 }
+@media (max-width: 768px)
+{
+  .imgs-1{
+    width: 100%;
+ 
+}
+}
